@@ -36,11 +36,10 @@ class HeaderAppBar extends StatelessWidget {
           ),
         ),
         const CircleAvatar(
-          backgroundColor: Colors.black,
-          radius: 30.0,
-          backgroundImage: NetworkImage(
-              "https://www.fujixpassion.com/wp-content/uploads/2018/11/destaque.jpg"),
-        ),
+            backgroundColor: Colors.black,
+            radius: 30.0,
+            backgroundImage: NetworkImage(
+                "https://www.fujixpassion.com/wp-content/uploads/2018/11/destaque.jpg")),
       ],
     );
   }

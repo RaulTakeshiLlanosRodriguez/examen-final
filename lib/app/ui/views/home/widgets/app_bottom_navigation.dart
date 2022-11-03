@@ -10,21 +10,21 @@ class AppBottomNavigation extends StatelessWidget {
         BottomNavigationBarItem(
           icon: Icon(
             Icons.home_outlined,
-            size: 30.0,
+            size: 25.0,
           ),
           label: 'Home',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.business_center_outlined, size: 30.0),
-          label: 'Business',
+          icon: Icon(Icons.no_food_outlined, size: 25.0),
+          label: 'Food',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.school_outlined, size: 30.0),
-          label: 'School',
+          icon: Icon(Icons.view_agenda_outlined, size: 25.0),
+          label: 'Delivery',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.school_outlined, size: 30.0),
-          label: 'School',
+          icon: Icon(Icons.person_outlined, size: 25.0),
+          label: 'Person',
         ),
       ],
       currentIndex: 0,
